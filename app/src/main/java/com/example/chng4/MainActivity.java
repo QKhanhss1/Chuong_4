@@ -7,27 +7,33 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+    Button btnChuyenMH;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+
         setContentView(R.layout.activity_main);
-
-            Button button = findViewById(R.id.my_button);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(MainActivity.this, "Button clicked!", Toast.LENGTH_SHORT).show();
-                }
-
-            });
-
-        }
-
+        btnChuyenMH= findViewById(R.id.btnDoimanhinh);
     }
+
+    public void sukienChuyenmanHinh(View view) {
+        //Tao button trong trang moi
+        Button btnMoi= new Button(MainActivity.this){
+            //onclick quay ve giao dien cu
+            @Override
+            public boolean performLongClick() {
+                setContentView(R.layout.activity_main);
+                return super.performLongClick();
+            }
+        };
+        btnMoi.setText("Quay ve");
+        btnMoi.setHeight(400);
+        btnMoi.setWidth(200);
+        //hien thi button moi trong man hinh
+        setContentView(btnMoi);
+    }
+}
