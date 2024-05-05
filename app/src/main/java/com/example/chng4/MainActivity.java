@@ -29,4 +29,28 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
+public class MainActivity extends AppCompatActivity {
+    Button btn3;
+    private Object setOnClickListener;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        btn3.1 = findViewById(R.btn3.1);
+        btn3.1 setOnClickListener( new View.OnClickListener(){
+            private String packageContext;
+
+            @Override
+        public void onClick( View view)
+                //khai bao intent
+          Intent myintent = new Intent(packageContext: MainActivity.this, Mainviewandviewgroup.class);
+          startActivity(myintent);
+    }
+
+    });
+ }
+}  
+
 
