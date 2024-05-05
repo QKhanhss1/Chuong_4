@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnwebkit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1403A9F4"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="WEBKIT"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:text="Trong Android, WebKit là một công nghệ được sử dụng để tích hợp trình duyệt web vào ứng dụng. WebKit là một công cụ mã nguồn mở được phát triển bởi Apple, được sử dụng rộng rãi trong các ứng dụng và trình duyệt web trên nhiều nền tảng, bao gồm cả Android. Các tính năng chính của WebKit trong Android bao gồm:  WebView: WebView là một thành phần giao diện người dùng trong Android cho phép bạn hiển thị nội dung web bằng cách tích hợp trình duyệt web vào trong ứng dụng. Bạn có thể sử dụng WebView để hiển thị các trang web, đồng thời có thể tương tác với các tài nguyên web như HTML, CSS, JavaScript và hình ảnh.  Tích hợp trang web: Với WebView, bạn có thể tích hợp trang web vào ứng dụng của mình để cung cấp trải nghiệm web hoàn chỉnh cho người dùng.  Các phương thức điều khiển: Android cung cấp các phương thức và sự kiện cho phép bạn tương tác với WebView, chẳng hạn như load URL, điều hướng trang web, tải lại trang, xử lý các sự kiện như khi người dùng click vào liên kết, v.v."
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BACK" />
+
+</LinearLayout>
+
+    </LinearLayout>
