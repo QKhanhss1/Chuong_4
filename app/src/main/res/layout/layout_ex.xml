@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:hint="Nhập số của bạn"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnGoi"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="Gọi" />
+
+    <EditText
+        android:id="@+id/edtURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập dịa chỉ Web" />
+
+    <Button
+        android:id="@+id/btnURL"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:text="Đi Đến" />
+</LinearLayout>

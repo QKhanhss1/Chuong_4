@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" >
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -25,12 +31,12 @@
             android:name=".ActivityIntent"
             android:exported="true" >
         </activity>
-        <activity android:name=".ActivityCha" android:exported="true">
-
-        </activity>
         <activity android:name=".ActivityChild" android:exported="true">
 
         </activity>
+ <activity android:name=".ActivityEx" android:exported="true" />
+        <activity android:name=".ActivityResult" android:exported="true"/>
+        <activity android:name=".InputNameActivity" android:exported="true"/>
     </application>
 
 </manifest>
