@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnwebkit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1403A9F4"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="WEBKIT"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:text="WebKit là một công nghệ mã nguồn mở được sử dụng để tích hợp trình duyệt web vào ứng dụng Android. WebKit cung cấp các tính năng sau:"
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:text="WebView: Thành phần giao diện người dùng cho phép hiển thị nội dung web trong ứng dụng."
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="Tích hợp trang web: Cho phép tích hợp trang web vào ứng dụng để mang lại trải nghiệm web hoàn chỉnh cho người dùng."
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Phương thức điều khiển: Cung cấp các phương thức và sự kiện để tương tác với WebView, chẳng hạn như load URL, điều hướng trang web, xử lý sự kiện click vào liên kết, v.v."
+        android:textAlignment="gravity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BACK" />
+
+</LinearLayout>
+
+    </LinearLayout>
