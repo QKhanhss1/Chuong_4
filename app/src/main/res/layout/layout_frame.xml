@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ground" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đây là Frame Layout"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:background="#ECDB4B"
+            android:gravity="center"
+            android:text="Nó hoạt động như một khung chứa cho các View con, xếp chồng lên nhau theo thứ tự khai báo trong XML. View con được thêm vào sau sẽ che khuất các View con được thêm vào trước đó."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/BackFrame"/>
+    </LinearLayout>
+</LinearLayout>

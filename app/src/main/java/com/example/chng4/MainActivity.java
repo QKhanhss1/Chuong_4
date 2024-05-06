@@ -11,7 +11,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnIntent;
+    Button btnIntent,btnLayout;
 
 
     @Override
@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent myintent = new Intent(MainActivity.this, ActivityIntent.class);
                 startActivity(myintent);
+            }
+        });
+        btnLayout = findViewById(R.id.btn31);
+        btnLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent layoutintent =new Intent(MainActivity.this, ActivityLayout.class);
+                startActivity(layoutintent);
             }
         });
     }

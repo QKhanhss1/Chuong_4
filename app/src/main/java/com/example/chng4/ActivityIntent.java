@@ -36,7 +36,7 @@ public class ActivityIntent extends AppCompatActivity {
         btnResult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent resintent = new Intent(ActivityIntent.this, InputNameActivity.class);
+                Intent resintent = new Intent(ActivityIntent.this, ActivityResult.class);
                 startActivity(resintent);
             }
         });
