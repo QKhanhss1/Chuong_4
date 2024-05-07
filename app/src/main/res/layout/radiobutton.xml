@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="337dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="78dp"
+        android:background="#7BC9EC"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" là một phần tử giao diện dùng để hiển thị danh sách các tùy chọn và cho phép người dùng chỉ chọn một tùy chọn duy nhất từ danh sách đó."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="155dp"
+        android:text="Chọn giới tính của bạn"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioGroup
+        android:id="@+id/RadioGrgioitinh"
+        android:layout_width="290dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
+
+        <RadioButton
+            android:id="@+id/optionnu"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+
+        <RadioButton
+            android:id="@+id/optionnam"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BackRadiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="133dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

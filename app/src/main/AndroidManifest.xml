@@ -59,8 +59,11 @@
         <activity android:name=".VIewGroup" android:exported="true"/>
         <activity android:name=".Webkit" android:exported="true"/>
         <activity android:name=".TextView" android:exported="true"/>
-<activity android:name=".EditView" android:exported="true"/>
-
+        <activity android:name=".EditView" android:exported="true"/>
+        <activity android:name=".Button" android:exported="true"/>
+        <activity android:name=".Checkbox" android:exported="true"/>
+        <activity android:name=".MyRadioButtonActivity" android:exported="true"/>
+        <activity android:name=".Myimage" android:exported="true"/>
     </application>
 
 </manifest>
