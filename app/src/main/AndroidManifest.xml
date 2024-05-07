@@ -55,8 +55,11 @@
             android:exported="true" />
         <activity android:name=".GridLayout" android:exported="true"/>
         <activity android:name=".Frame" android:exported="true"/>
-
-
+        <activity android:name=".CommonCtrl" android:exported="true"/>
+        <activity android:name=".VIewGroup" android:exported="true"/>
+        <activity android:name=".Webkit" android:exported="true"/>
+        <activity android:name=".TextView" android:exported="true"/>
+<activity android:name=".EditView" android:exported="true"/>
 
     </application>
 

@@ -11,7 +11,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnIntent,btnLayout;
+    Button btnIntent,btnLayout,btnCommonCtrl,btnWebkit;
 
 
     @Override
@@ -34,31 +34,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(layoutintent);
             }
         });
+        btnCommonCtrl = findViewById(R.id.btn32);
+        btnCommonCtrl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent layoutintent =new Intent(MainActivity.this, CommonCtrl.class);
+                startActivity(layoutintent);
+            }
+        });
+        btnWebkit = findViewById(R.id.btn35);
+        btnWebkit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent layoutintent =new Intent(MainActivity.this, Webkit.class);
+                startActivity(layoutintent);
+            }
+        });
+
     }
 }
 
-public class MainActivity extends AppCompatActivity {
-    Button btn3;
-    private Object setOnClickListener;
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        btn3.1 = findViewById(R.btn3.1);
-        btn3.1 setOnClickListener( new View.OnClickListener(){
-            private String packageContext;
-
-            @Override
-        public void onClick( View view)
-                //khai bao intent
-          Intent myintent = new Intent(packageContext: MainActivity.this, Mainviewandviewgroup.class);
-          startActivity(myintent);
-    }
-
-    });
- }
-}  
 
 

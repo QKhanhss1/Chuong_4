@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="249dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="34dp"
+        android:background="#41E9FF"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="là một phần tử giao diện dùng để hiển thị và định dạng văn bản trên màn hình của ứng dụng Android."
+        android:textColor="#100E0E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="37dp"
+        android:background="#2AC8E1E4"
+        android:text="Bạn cũng có thể tùy chỉnh textview theo thuộc tính của nó"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="261dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="56dp"
+        android:background="#48000000"
+        android:gravity="center"
+        android:text="căn giữa nè"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="36dp"
+        android:background="#48000000"
+        android:padding="10dp"
+
+        android:text="To hơn và đổi màu nè"
+        android:textColor="#EF1C0D"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/BackTxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="293dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
