@@ -1,4 +1,4 @@
-package com.example.chuong3;
+package com.example.chng4;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
