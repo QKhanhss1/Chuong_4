@@ -17,7 +17,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="TextView"/>
+            android:text="3.2.1 TextView"/>
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +33,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="EditView"/>
+            android:text="3.2.2 EditView"/>
     </LinearLayout>
 
     <LinearLayout
@@ -49,7 +49,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="Button"/>
+            android:text="3.3.3 Button"/>
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +64,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="Checkbox"/>
+            android:text="3.3.4 Checkbox"/>
     </LinearLayout>
 
     <LinearLayout
@@ -79,7 +79,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="RadioButton"/>
+            android:text="3.3.5 RadioButton"/>
     </LinearLayout>
 
     <LinearLayout
@@ -94,7 +94,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="Image"/>
+            android:text="3.3.6 Image"/>
     </LinearLayout>
 
     <LinearLayout
@@ -108,6 +108,6 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="30sp"
-            android:text="ScrollView"/>
+            android:text="3.3.7 ScrollView"/>
     </LinearLayout>
 </LinearLayout>

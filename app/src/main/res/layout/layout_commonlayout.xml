@@ -1,81 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="5"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txtConstrain"
-        android:layout_width="216dp"
-        android:layout_height="97dp"
-        android:layout_marginTop="88dp"
-        android:height="50dp"
-        android:background="#A1984B"
-        android:backgroundTint="#30988F"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:text="Đây là ConstrainLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.167"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txt1"
-        android:layout_width="245dp"
-        android:layout_height="112dp"
-        android:layout_marginTop="280dp"
-        android:background="#CF678A"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:backgroundTint="#2FAFBF"
-        android:gravity="center"
-        android:text="Vị trí của nó có thể thay đỏi tùy theo tùy chỉnh của chúng ta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Constrain Layout"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/btnConstrain"/>
 
-    <Button
-        android:id="@+id/btnLinear"
-        android:layout_width="141dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="516dp"
-        android:text="Linear Layout"
-        app:layout_constraintEnd_toStartOf="@+id/btnGrid"
-        app:layout_constraintHorizontal_bias="0.32"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnGrid"
-        android:layout_width="140dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="516dp"
-        android:layout_marginEnd="64dp"
-        android:text="Grid Layout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Linear Layout"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/btnLinear"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnFrame"
-        android:layout_width="141dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="60dp"
-        android:text="Frame Layout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Relative Layout"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/btnRelative"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnRelavetive"
-        android:layout_width="149dp"
-        android:layout_height="53dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="60dp"
-        android:text="Relative Layout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Grid Layout"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/btnGrid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Frame Layout"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/btnFrame"/>
+    </LinearLayout>
+</LinearLayout>

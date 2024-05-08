@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent layoutintent =new Intent(MainActivity.this, ActivityLayout.class);
+                Intent layoutintent =new Intent(MainActivity.this, XML_Layout.class);
                 startActivity(layoutintent);
             }
         });
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdva.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent layoutintent =new Intent(MainActivity.this, Webkit.class);
+                Intent layoutintent =new Intent(MainActivity.this, advaced_control.class);
                 startActivity(layoutintent);
             }
         });

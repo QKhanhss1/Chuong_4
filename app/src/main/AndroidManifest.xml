@@ -69,6 +69,9 @@
         <activity android:name=".sliding_drawer" android:exported="true"/>
         <activity android:name=".Spiner" android:exported="true"/>
         <activity android:name="text_view" android:exported="true"/>
+        <activity android:name=".List_View" android:exported="true"/>
+        <activity android:name=".XML_Layout" android:exported="true"/>
+        <activity android:name=".Toast_Dialog" android:exported="true"/>
     </application>
 
 </manifest>

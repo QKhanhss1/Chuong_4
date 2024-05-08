@@ -1,13 +1,10 @@
 package com.example.chng4;
 
-import android.annotation.SuppressLint;
+
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import android.view.View;
 import android.widget.Button;
@@ -29,7 +26,7 @@ public class Toast_Dialog extends AppCompatActivity {
         btnToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Toast_Dialog.this, "Hello World!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Toast_Dialog.this, "Chào bạn mình là nhóm 4!", Toast.LENGTH_SHORT).show();
             }
         });
 

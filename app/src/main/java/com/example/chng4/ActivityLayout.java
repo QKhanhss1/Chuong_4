@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityLayout extends AppCompatActivity {
-    Button btnLinear,btnRelative,btnGrid,btnFrame;
+    Button btnLinear,btnRelative,btnGrid,btnFrame,btnConstrain;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class ActivityLayout extends AppCompatActivity {
                 startActivity(Linear);
             }
         });
-        btnRelative=findViewById(R.id.btnRelavetive);
+        btnRelative=findViewById(R.id.btnRelative);
         btnRelative.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,6 +40,14 @@ public class ActivityLayout extends AppCompatActivity {
         });
         btnFrame=findViewById(R.id.btnFrame);
         btnFrame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent relaitve = new Intent(ActivityLayout.this, Frame.class);
+                startActivity(relaitve);
+            }
+        });
+        btnConstrain=findViewById(R.id.btnConstrain);
+        btnConstrain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent relaitve = new Intent(ActivityLayout.this, Frame.class);

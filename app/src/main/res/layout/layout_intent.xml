@@ -19,7 +19,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="24sp"
-            android:text="Explict Intent" />
+            android:text="3.6.1 Explicit Intent" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,7 +36,7 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="24sp"
-            android:text="Implicit Intent" />
+            android:text="3.6.2 Implicit Intent" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,6 +53,6 @@
             android:backgroundTint="@color/white"
             android:textColor="#252020"
             android:textSize="24sp"
-            android:text="Getting Result" />
+            android:text="3.6.2 Getting Result" />
     </LinearLayout>
 </LinearLayout>
