@@ -64,6 +64,11 @@
         <activity android:name=".Checkbox" android:exported="true"/>
         <activity android:name=".MyRadioButtonActivity" android:exported="true"/>
         <activity android:name=".Myimage" android:exported="true"/>
+        <activity android:name=".advaced_control" android:exported="true"/>
+        <activity android:name=".auto_complete" android:exported="true"/>
+        <activity android:name=".sliding_drawer" android:exported="true"/>
+        <activity android:name=".Spiner" android:exported="true"/>
+        <activity android:name="text_view" android:exported="true"/>
     </application>
 
 </manifest>
