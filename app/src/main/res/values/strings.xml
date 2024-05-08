@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Chương 4</string>
+    <string name="app_name">Chuong 3</string>
+
+    <string-array name="countries">
+        <item> Madagasca </item>
+        <item>  Malaysia </item>
+        <item> Malawi </item>
+        <item>  Mali  </item>
+        <item> Madives </item>
+    </string-array>
 </resources>
