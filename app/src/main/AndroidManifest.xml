@@ -76,6 +76,7 @@
         <activity android:name=".Constrain" android:exported="true"/>
         <activity android:name=".GridViewActivity" android:exported="true"/>
         <activity android:name=".Customtest1" android:exported="true"/>
+        <activity android:name=".TimeSelection" android:exported="true" />
     </application>
 
 </manifest>
