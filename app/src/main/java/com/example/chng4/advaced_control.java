@@ -13,7 +13,7 @@ public class advaced_control extends AppCompatActivity {
 
     Button btn1; Button bt4;
     Button bt2;  Button bt5;
-    Button bt3;
+    Button bt3,bt6;
 
     @Override
 
@@ -68,6 +68,16 @@ public class advaced_control extends AppCompatActivity {
             public void onClick(View view) {
                 //KB intent
                 Intent myintent = new Intent(advaced_control.this,text_view.class);
+                // star
+                startActivity(myintent);
+            }
+        });
+        bt6 = findViewById(R.id.bt6);
+        bt6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //KB intent
+                Intent myintent = new Intent(advaced_control.this,GridViewActivity.class);
                 // star
                 startActivity(myintent);
             }

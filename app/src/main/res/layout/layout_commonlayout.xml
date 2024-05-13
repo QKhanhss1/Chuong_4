@@ -11,11 +11,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Constrain Layout"
             android:gravity="center"
+            android:backgroundTint="@color/white"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:id="@+id/btnConstrain"/>
@@ -27,10 +28,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Linear Layout"
+            android:backgroundTint="@color/white"
             android:gravity="center"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -42,14 +44,16 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <TextView
+
+        <Button
+            android:id="@+id/btnRelative"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
             android:text="Relative Layout"
-            android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:id="@+id/btnRelative"/>
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,14 +61,17 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <TextView
+
+        <Button
+            android:id="@+id/btnGrid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Grid Layout"
+
+            android:backgroundTint="@color/white"
             android:gravity="center"
+            android:text="Grid Layout"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:id="@+id/btnGrid"/>
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,11 +79,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Frame Layout"
             android:gravity="center"
+            android:backgroundTint="@color/white"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:id="@+id/btnFrame"/>

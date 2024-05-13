@@ -72,6 +72,9 @@
         <activity android:name=".List_View" android:exported="true"/>
         <activity android:name=".XML_Layout" android:exported="true"/>
         <activity android:name=".Toast_Dialog" android:exported="true"/>
+        <activity android:name=".Activityketqua" android:exported="true"/>
+        <activity android:name=".Constrain" android:exported="true"/>
+        <activity android:name=".GridViewActivity" android:exported="true"/>
     </application>
 
 </manifest>

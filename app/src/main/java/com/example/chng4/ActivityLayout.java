@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintSet;
 
 public class ActivityLayout extends AppCompatActivity {
     Button btnLinear,btnRelative,btnGrid,btnFrame,btnConstrain;
@@ -50,7 +51,7 @@ public class ActivityLayout extends AppCompatActivity {
         btnConstrain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent relaitve = new Intent(ActivityLayout.this, Frame.class);
+                Intent relaitve = new Intent(ActivityLayout.this, Constrain.class);
                 startActivity(relaitve);
             }
         });
