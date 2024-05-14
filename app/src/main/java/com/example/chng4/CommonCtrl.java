@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CommonCtrl extends AppCompatActivity {
-    Button btnTxtView, btnEdtView, btnButton, btnImage,btnCheck, btnRadio, btnScrool;
+    Button btnTxtView, btnEdtView, btnButton, btnImage,btnCheck, btnRadio, btnScrollView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +59,15 @@ public class CommonCtrl extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent layoutintent =new Intent(CommonCtrl.this, Myimage.class);
+                startActivity(layoutintent);
+            }
+        });
+
+        btnScrollView=findViewById(R.id.scrollView);
+        btnScrollView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent layoutintent =new Intent(CommonCtrl.this, ScrollView.class);
                 startActivity(layoutintent);
             }
         });
