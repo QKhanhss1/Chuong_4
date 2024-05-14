@@ -75,6 +75,7 @@
         <activity android:name=".Activityketqua" android:exported="true"/>
         <activity android:name=".Constrain" android:exported="true"/>
         <activity android:name=".GridViewActivity" android:exported="true"/>
+        <activity android:name=".MenuActivity" android:exported="true"/>
     </application>
 
 </manifest>

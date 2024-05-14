@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="1"
+        />
+    <item android:title="Share"
+
+        android:id="@+id/ShareMenu"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always"/>
+    <item android:title="Help" android:orderInCategory="2"/>
+    <item android:title="Contact" android:orderInCategory="3">
+        <menu>
+            <item android:title="Email"/>
+            <item android:title="Phone"/>
+        </menu>
+    </item>
+</menu>

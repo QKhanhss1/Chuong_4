@@ -13,7 +13,7 @@ public class advaced_control extends AppCompatActivity {
 
     Button btn1; Button bt4;
     Button bt2;  Button bt5;
-    Button bt3,bt6;
+    Button bt3,bt6,bt10;
 
     @Override
 
@@ -82,6 +82,15 @@ public class advaced_control extends AppCompatActivity {
                 startActivity(myintent);
             }
         });
-
+        bt10 = findViewById(R.id.bt10);
+        bt10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //KB intent
+                Intent myintent = new Intent(advaced_control.this,MenuActivity.class);
+                // star
+                startActivity(myintent);
+            }
+        });
     }
 }
