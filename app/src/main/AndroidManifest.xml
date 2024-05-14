@@ -75,7 +75,9 @@
         <activity android:name=".Activityketqua" android:exported="true"/>
         <activity android:name=".Constrain" android:exported="true"/>
         <activity android:name=".GridViewActivity" android:exported="true"/>
-        <activity android:name=".MenuActivity" android:exported="true"/>
+        <activity android:name=".Customtest1" android:exported="true"/>
+        <activity android:name=".TimeSelection" android:exported="true" />
+        <activity android:name=".ScrollView" android:exported="true" />
     </application>
 
 </manifest>

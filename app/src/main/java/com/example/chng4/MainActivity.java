@@ -11,7 +11,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnIntent,btnLayout,btnCommonCtrl,btnWebkit,btnAdva;
+    Button btnIntent,btnLayout,btnCommonCtrl,btnWebkit,btnAdva,btnCustom;
 
 
     @Override
@@ -56,6 +56,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent layoutintent =new Intent(MainActivity.this, advaced_control.class);
+                startActivity(layoutintent);
+            }
+        });
+
+        btnCustom = findViewById(R.id.btn34);
+        btnCustom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent layoutintent =new Intent(MainActivity.this, Customtest1.class);
                 startActivity(layoutintent);
             }
         });
