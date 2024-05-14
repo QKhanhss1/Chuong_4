@@ -84,10 +84,21 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bt7"
+        android:id="@+id/bt6"
         android:layout_width="138dp"
         android:layout_height="61dp"
         android:layout_marginTop="444dp"
+        android:text="Grid View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="556dp"
         android:text="Time Selection"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.161"
@@ -95,22 +106,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bt9"
-        android:layout_width="138dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="556dp"
-        android:text="Tab Selector"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/bt6"
+        android:id="@+id/bt8"
         android:layout_width="138dp"
         android:layout_height="52dp"
         android:layout_marginTop="344dp"
-        android:text="Grid View"
+        android:text="Picture Gallery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,11 +118,11 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bt8"
+        android:id="@+id/bt9"
         android:layout_width="138dp"
         android:layout_height="61dp"
         android:layout_marginTop="444dp"
-        android:text="Picture Gallery"
+        android:text="Tab Selector"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
