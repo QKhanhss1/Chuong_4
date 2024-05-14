@@ -13,7 +13,7 @@ public class advaced_control extends AppCompatActivity {
 
     Button btn1; Button bt4;
     Button bt2;  Button bt5;
-    Button bt3,bt6,bt7;
+    Button bt3,bt6,bt7;bt8,bt9,bt10;
 
     @Override
 
