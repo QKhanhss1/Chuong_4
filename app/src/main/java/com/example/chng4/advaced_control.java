@@ -93,6 +93,17 @@ public class advaced_control extends AppCompatActivity {
                 startActivity(myintent);
             }
         });
+        
+        bt9 = findViewById(R.id.bt9);
+        bt9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //KB intent
+                Intent myintent = new Intent(advaced_control.this,tab_selector.class);
+                // star
+                startActivity(myintent);
+            }
+        });
 
     }
 }
