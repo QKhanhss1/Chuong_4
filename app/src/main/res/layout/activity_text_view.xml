@@ -9,39 +9,46 @@
         tools:context=".text_view">
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="#FFEB3B"
-            android:text="TEXT"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:textColor="#CF1010"
-            android:textSize="34sp" />
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#3F51B5"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:text="TextView" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="TextView là một View cho phép hiện thị các dòng chữ (text) trên màn hình, nó có nhiều thuộc tính tùy mục đích sử dụng mà áp dụng, như thiết lập cỡ chữ, font chữ, màu chữ ..."
+        android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="94dp"
-            android:text="TextView" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="TextView này có màu đỏ và cỡ chữ 34sp"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:text="TextView" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:text="ID của TextView android:id để thiết lập id của TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSelectHandleRight="@drawable/cat"
+        android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="101dp"
-            android:text="TextView" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text="TextView còn có các thuộc tính quan trọng khác như: layout_width(thiết lập độ rộng), layout_height(thiết lập chiều cao), background(màu nền), textColor(màu chữ), textSize(cỡ chữ)"
+        android:textColor="#009688"
+        android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
