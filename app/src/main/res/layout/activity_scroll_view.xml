@@ -23,50 +23,59 @@
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="101dp"
+                android:background="#3F51B5"
+                android:gravity="center_vertical"
                 android:padding="16dp"
-                android:text="TextView 1"
+                android:text="ScrollView trong Android "
+                android:textColor="@color/white"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
                 android:padding="16dp"
-                android:text="TextView 2"
-                android:textSize="24sp" />
+                android:text="Trong Android, ScrollView là một kiểu Layout, nó là một bộ chứa (container) hình chữ nhật có thanh cuộn thẳng đứng"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="TextView 3"
-                android:textSize="24sp"
-                android:padding="16dp" />
+                android:background="#8BC34A"
+                android:padding="16dp"
+                android:text="Nếu bạn kéo thả một ScrollView vào giao diện nó sẽ tự động được thêm vào một thành phần con là LinearLayout, bạn có thể xóa thành phần con này để sử dụng một thành phần con khác."
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="TextView 4"
-                android:textSize="24sp"
-                android:padding="16dp" />
+                android:background="#FFC107"
+                android:padding="16dp"
+                android:text="Không nên sử dụng ScrollView với ListView hoặc GridView, bởi vì cả hai thành phần này đều sẵn có thanh cuộn thẳng đứng của riêng nó."
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="TextView 5"
-                android:textSize="24sp"
-                android:padding="16dp" />
+                android:background="#00BCD4"
+                android:padding="16dp"
+                android:text="ScrollView là một dạng đặc biệt của FrameLayout ở chỗ nó cho phép người dùng di chuyển qua một danh sách các quan điểm mà chiếm nhiều không gian hơn màn hình vật lý."
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="TextView 6"
-                android:textSize="24sp"
-                android:padding="16dp" />
+                android:background="#CDDC39"
+                android:padding="16dp"
+                android:text="android:scrollbars: Thuộc tính này được sử dụng hiển thị thanh cuộn trong ScrollView, giá trị có thể là vertical, horizontal, mặc định cuộn theo thẳng đứng.  "
+                android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>

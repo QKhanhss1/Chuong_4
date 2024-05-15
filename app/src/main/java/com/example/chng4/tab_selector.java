@@ -13,11 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class tab_selector extends AppCompatActivity {
-   EditText edit_a, edit_b;
-   Button btncong;
-   TabHost mytab;
-   //khai bao lissview
+class tab_selector extends AppCompatActivity {
+    EditText edit_a, edit_b;
+    Button btncong;
+    TabHost mytab;
+    //khai bao lissview
     ListView lv;
     ArrayList<String> mylist;
     ArrayAdapter<String> myadapter;
@@ -26,7 +26,7 @@ public class tab_selector extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_tab_selector);
+        setContentView(R.layout.activity_main);
         addControl();
         addEvent();
     }
@@ -65,7 +65,7 @@ public class tab_selector extends AppCompatActivity {
 
         //khai bao tap 1 va 2
         TabHost.TabSpec spec1, spec2;
-       //tab1
+        //tab1
         spec1 = mytab.newTabSpec("t1");
         spec1.setContent(R.id.tab1);
 
