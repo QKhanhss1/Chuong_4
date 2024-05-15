@@ -20,7 +20,7 @@ public class advaced_control extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advaced_control);
-        btn1 = findViewById(R.id.btn1);
+        btn1 = findViewById(R.id.bt1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

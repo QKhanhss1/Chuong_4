@@ -8,12 +8,11 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TabHost;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-class tab_selector extends AppCompatActivity {
+public class tab_selector extends AppCompatActivity {
     EditText edit_a, edit_b;
     Button btncong;
     TabHost mytab;
@@ -25,57 +24,53 @@ class tab_selector extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tab_selector);
         addControl();
         addEvent();
     }
-    private Integer Interger;
+
     private void addEvent() {
         btncong.setOnClickListener(new View.OnClickListener() {
-
-
             @Override
             public void onClick(View v) {
-                int a = Interger.parseInt(edit_a.getText().toString());
-                int b = Interger.parseInt(edit_b.getText().toString());
+                int a = Integer.parseInt(edit_a.getText().toString());
+                int b = Integer.parseInt(edit_b.getText().toString());
                 int c = a + b;
-                mylist.add(a+" + "+ b +" = "+ c); //thm du lieu vao mang
+                mylist.add(a + " + " + b + " = " + c); //thêm dữ liệu vào mảng
                 myadapter.notifyDataSetChanged();
             }
         });
-
     }
 
     private void addControl() {
-        //anh xa id
+        // ánh xạ id
         edit_a = findViewById(R.id.edit_a);
         edit_b = findViewById(R.id.edit_b);
-        btncong =findViewById(R.id.btncong);
+        btncong = findViewById(R.id.btncong);
 
-        //xu ly lv
+        // xử lý ListView
         lv = findViewById(R.id.lv);
         mylist = new ArrayList<>();
-        myadapter = new ArrayAdapter<>(tab_selector.this, android.R.layout.simple_list_item_1);
+        myadapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mylist);
         lv.setAdapter(myadapter);
 
-        //xu ly TabHost
+        // xử lý TabHost
         mytab = findViewById(R.id.mytap);
         mytab.setup();
 
-        //khai bao tap 1 va 2
+        // khai báo tab 1 và 2
         TabHost.TabSpec spec1, spec2;
-        //tab1
+
+        // tab 1
         spec1 = mytab.newTabSpec("t1");
         spec1.setContent(R.id.tab1);
+        spec1.setIndicator("Tab 1"); // Đặt nội dung của tab indicator
+        mytab.addTab(spec1); // thêm tab 1
 
-        mytab.addTab(spec1); //them tab 1
-
-        //tab2
+        // tab 2
         spec2 = mytab.newTabSpec("t2");
         spec2.setContent(R.id.tab2);
-
-        mytab.addTab(spec2); //them tab 2
-
+        spec2.setIndicator("Tab 2"); // Đặt nội dung của tab indicator
+        mytab.addTab(spec2); // thêm tab 2
     }
 }
