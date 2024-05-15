@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <include layout="@layout/layout_1"></include>
+                    <include layout="@layout/layout_tabselector1"></include>
 
 
                 </LinearLayout>
@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <include layout="@layout/layout_2"></include>
+                    <include layout="@layout/layout_tabselector2"></include>
 
                 </LinearLayout>
 

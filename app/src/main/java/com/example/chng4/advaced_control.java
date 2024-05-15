@@ -13,7 +13,7 @@ public class advaced_control extends AppCompatActivity {
 
     Button btn1; Button bt4;
     Button bt2;  Button bt5;
-    Button bt3,bt6,bt7,bt10,bt9;
+    Button bt3,bt6,bt7,bt10,bt9,bt8;
 
 
     @Override
@@ -111,6 +111,16 @@ public class advaced_control extends AppCompatActivity {
             public void onClick(View view) {
                 //KB intent
                 Intent myintent = new Intent(advaced_control.this,tab_selector.class);
+                // star
+                startActivity(myintent);
+            }
+        });
+        bt8 = findViewById(R.id.bt8);
+        bt8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //KB intent
+                Intent myintent = new Intent(advaced_control.this,PictureGallery.class);
                 // star
                 startActivity(myintent);
             }
