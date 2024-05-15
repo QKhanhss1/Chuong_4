@@ -77,6 +77,63 @@
                 android:text="android:scrollbars: Thuộc tính này được sử dụng hiển thị thanh cuộn trong ScrollView, giá trị có thể là vertical, horizontal, mặc định cuộn theo thẳng đứng.  "
                 android:textSize="20dp" />
 
+             <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#009688"
+                android:padding="16dp"
+                android:text="android:scrollbars: Thuộc tính này được sử dụng hiển thị thanh cuộn trong ScrollView, giá trị có thể là vertical, horizontal, mặc định cuộn theo thẳng đứng.  "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#03A9F4"
+                android:padding="16dp"
+                android:text="android:scrollbars: Thuộc tính này được sử dụng hiển thị thanh cuộn trong ScrollView, giá trị có thể là vertical, horizontal, mặc định cuộn theo thẳng đứng.  "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:background="#3F51B5"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="ScrollView trong Android "
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:padding="16dp"
+                android:text="Trong Android, ScrollView là một kiểu Layout, nó là một bộ chứa (container) hình chữ nhật có thanh cuộn thẳng đứng"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#8BC34A"
+                android:padding="16dp"
+                android:text="Nếu bạn kéo thả một ScrollView vào giao diện nó sẽ tự động được thêm vào một thành phần con là LinearLayout, bạn có thể xóa thành phần con này để sử dụng một thành phần con khác."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFC107"
+                android:padding="16dp"
+                android:text="Không nên sử dụng ScrollView với ListView hoặc GridView, bởi vì cả hai thành phần này đều sẵn có thanh cuộn thẳng đứng của riêng nó."
+                android:textSize="20dp" />
+
         </LinearLayout>
     </ScrollView>
 
